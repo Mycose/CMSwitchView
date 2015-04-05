@@ -38,7 +38,6 @@ CMSSwitchView Usage Example:
     self.firstSwitch.dotColor = [UIColor blueColor];
     self.firstSwitch.color = [UIColor whiteColor];
     self.firstSwitch.tintColor = [UIColor clearColor];
-    [self.firstSwitch setup];
     [self.view addSubview:self.firstSwitch];
     
     self.secondSwitch = [[CMSwitchView alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2-100, self.firstSwitch.frame.size.height+self.firstSwitch.frame.origin.y+100, 200, 60)];
@@ -46,13 +45,11 @@ CMSSwitchView Usage Example:
     self.secondSwitch.color = [UIColor clearColor];
     self.secondSwitch.tintColor = [UIColor clearColor];
     self.secondSwitch.dotWeight = 20.f;
-    [self.secondSwitch setup];
     [self.view addSubview:self.secondSwitch];
     
     self.thirdSwitch = [[CMSwitchView alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2-50, self.secondSwitch.frame.size.height+self.secondSwitch.frame.origin.y+100, 100, 30)];
     self.thirdSwitch.animDuration = 2.f;
     self.thirdSwitch.isRounded = NO;
-    [self.thirdSwitch setup];
     [self.view addSubview:self.thirdSwitch];
 ```
 ![Image](./Screenshots/IMG_0747.PNG)
