@@ -1,0 +1,14 @@
+PODS:
+  - CMSwitchView (0.1.0)
+
+DEPENDENCIES:
+  - CMSwitchView (from `../`)
+
+EXTERNAL SOURCES:
+  CMSwitchView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CMSwitchView: 9f3dce828dd4874794ecdcde867217ee3cc226ba
+
+COCOAPODS: 0.35.0
