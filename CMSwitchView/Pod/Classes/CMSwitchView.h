@@ -14,25 +14,32 @@
 @end
 
 @interface CMSwitchView : UIView<UIGestureRecognizerDelegate>
+
 /// If you want to have rounded dots and switch view or not, YES by default
-@property (nonatomic, assign) BOOL isRounded;
+@property (nonatomic, assign) BOOL rounded;
+
 /// Width of the border, 1 by default
 @property (nonatomic, assign) CGFloat borderWidth;
+
 /// color of the border, white by default
 @property (nonatomic, assign) UIColor* borderColor;
+
 /// color of the background of the switch view, clearColor by default
 @property (nonatomic, strong) UIColor* color;
+
 /// color of the background of the switch view when switched, clearColor by default
 @property (nonatomic, strong) UIColor* tintColor;
+
 /// width and height of the dot, frameHeight-2 by default
 @property (nonatomic, assign) CGFloat dotWeight;
+
 /// color of the dot, white by default
 @property (nonatomic, strong) UIColor* dotColor;
-/// duration of the animation, 0.6 by default
-@property (nonatomic, assign) CGFloat animDuration;
-/// delegate to be set
-@property (nonatomic, assign) id<CMSwitchViewDelegate> delegate;
 
-/// setup and build the views, set all the properties you want, then setup
-- (void)setup;
+/// duration of the animation, 0.6 by default
+@property (nonatomic, assign) NSTimeInterval animDuration;
+
+/// delegate to be set
+@property (nonatomic, weak) id <CMSwitchViewDelegate> delegate;
+
 @end
