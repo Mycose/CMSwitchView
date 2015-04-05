@@ -1,9 +1,8 @@
 //
 //  CMSwitchView.m
-//  brainapp
 //
-//  Created by Tom on 31/03/2015.
-//  Copyright (c) 2015 Tom. All rights reserved.
+//  Created by Mycose on 31/03/2015.
+//  Copyright (c) 2015 Mycose. All rights reserved.
 //
 
 #import "CMSwitchView.h"
