@@ -28,7 +28,7 @@ CMSSwitchView Delegation : CMSSwitchViewDelegate
 ---------------------------------------------------
 Called when the switch view is clicked or when you move the dot after the middle with the pan gesture, sending you the new value
 ```objc
-- (void)switchValueChanged:(BOOL)value;
+- (void)switchValueChanged:(id)sender andNewValue:(BOOL)value;
 ```
 
 CMSSwitchView Usage Example:
