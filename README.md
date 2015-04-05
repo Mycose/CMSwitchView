@@ -5,7 +5,7 @@ CMSwitchView Properties:
 ---------------------------------------------------
 ```objc
 /// If you want to have rounded dots and switch view or not, YES by default
-@property (nonatomic, assign) BOOL isRounded;
+@property (nonatomic, assign) BOOL rounded;
 /// Width of the border, 1 by default
 @property (nonatomic, assign) CGFloat borderWidth;
 /// color of the border, white by default
@@ -22,13 +22,6 @@ CMSwitchView Properties:
 @property (nonatomic, assign) CGFloat animDuration;
 /// delegate to be set
 @property (nonatomic, assign) id<CMSwitchViewDelegate> delegate;
-```
-
-CMSwitchView Methods:
----------------------------------------------------
-```objc
-/// setup and build the views, set all the properties you want, then setup
-- (void)setup;
 ```
 
 CMSSwitchView Delegation : CMSSwitchViewDelegate
