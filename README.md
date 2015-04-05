@@ -19,9 +19,9 @@ CMSwitchView Properties:
 /// color of the dot, white by default
 @property (nonatomic, strong) UIColor* dotColor;
 /// duration of the animation, 0.6 by default
-@property (nonatomic, assign) CGFloat animDuration;
+@property (nonatomic, assign) NSTimerInterval animDuration;
 /// delegate to be set
-@property (nonatomic, assign) id<CMSwitchViewDelegate> delegate;
+@property (nonatomic, weak) id<CMSwitchViewDelegate> delegate;
 ```
 
 CMSSwitchView Delegation : CMSSwitchViewDelegate
