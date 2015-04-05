@@ -204,7 +204,7 @@
         }];
     }
     if (self.delegate)
-         [self.delegate switchValueChanged:self andNewValue:self.isSelected];
+        [self.delegate switchValueChanged:self andNewValue:self.isSelected];
 }
 
 @end
