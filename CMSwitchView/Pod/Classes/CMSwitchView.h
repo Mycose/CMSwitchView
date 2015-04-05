@@ -9,7 +9,7 @@
 
 @protocol CMSwitchViewDelegate <NSObject>
 /// Called when the switch view is clicked or when you move the dot after the middle with the pan gesture
-- (void)switchValueChanged:(BOOL)value;
+- (void)switchValueChanged:(id)sender andNewValue:(BOOL)value;
 @end
 
 @interface CMSwitchView : UIView<UIGestureRecognizerDelegate>

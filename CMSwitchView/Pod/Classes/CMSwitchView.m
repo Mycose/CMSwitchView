@@ -161,7 +161,7 @@
         (self.isSelected == YES && (CGRectGetMidX(self.dotView.frame) < [self semiWidth]))) {
         self.isSelected = !self.isSelected;
         if (self.delegate)
-            [self.delegate switchValueChanged:self.isSelected];
+            [self.delegate switchValueChanged:self andNewValue:self.isSelected];
     }
     
     if (panGesture.state == UIGestureRecognizerStateEnded) {
@@ -204,7 +204,7 @@
         }];
     }
     if (self.delegate)
-        [self.delegate switchValueChanged:self.isSelected];
+         [self.delegate switchValueChanged:self andNewValue:self.isSelected];
 }
 
 @end
