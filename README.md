@@ -62,4 +62,4 @@ CMSSwitchView Usage Example:
     [self.thirdSwitch setup];
     [self.view addSubview:self.thirdSwitch];
 ```
-![Image](./Screenshots/IMG_0747.png)
+![Image](./Screenshots/IMG_0747.PNG)
