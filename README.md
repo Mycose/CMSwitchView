@@ -63,3 +63,9 @@ CMSSwitchView Usage Example:
     [self.view addSubview:self.thirdSwitch];
 ```
 ![Image](./Screenshots/IMG_0747.PNG)
+
+Installation
+---------------------------------------------------
+```objc
+pod 'CMSwitchView'
+```
