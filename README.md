@@ -1,8 +1,7 @@
 # CMSwichView
 Customizable switch view
 
-CMSwitchView Properties:
----------------------------------------------------
+## CMSwitchView Properties:
 ```objc
 /// If you want to have rounded dots and switch view or not, YES by default
 @property (nonatomic, assign) BOOL rounded;
@@ -24,15 +23,13 @@ CMSwitchView Properties:
 @property (nonatomic, weak) id<CMSwitchViewDelegate> delegate;
 ```
 
-CMSSwitchView Delegation : CMSSwitchViewDelegate
----------------------------------------------------
+## CMSSwitchView Delegation : CMSSwitchViewDelegate
 Called when the switch view is clicked or when you move the dot after the middle with the pan gesture, sending you the new value
 ```objc
 - (void)switchValueChanged:(id)sender andNewValue:(BOOL)value;
 ```
 
-CMSSwitchView Usage Example:
----------------------------------------------------
+## CMSSwitchView Usage Example:
 ```objc
     self.firstSwitch = [[CMSwitchView alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2-150, 100, 300, 50)];
     self.firstSwitch.dotColor = [UIColor blueColor];
@@ -55,7 +52,6 @@ CMSSwitchView Usage Example:
 ![Gif](./Screenshots/switchviewdemo.gif)
 
 ## Installation
----------------------------------------------------
 CMSwitchView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
@@ -63,3 +59,8 @@ it, simply add the following line to your Podfile:
 pod "CMSwitchView"
 ```
 
+## Author
+Mycose, morissard@gmail.com
+
+## License
+CMSwitchView is available under the MIT license. See the LICENSE file for more info.
