@@ -64,3 +64,6 @@ Mycose, morissard@gmail.com
 
 ## License
 CMSwitchView is available under the MIT license. See the LICENSE file for more info.
+
+## TODO
+- Support for images for the dots
