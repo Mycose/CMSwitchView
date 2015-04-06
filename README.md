@@ -52,7 +52,7 @@ CMSSwitchView Usage Example:
     self.thirdSwitch.isRounded = NO;
     [self.view addSubview:self.thirdSwitch];
 ```
-![Image](./Screenshots/IMG_0747.PNG)
+![Gif](./Screenshots/switchviewdemo.gif)
 
 Installation
 ---------------------------------------------------
