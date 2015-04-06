@@ -54,8 +54,12 @@ CMSSwitchView Usage Example:
 ```
 ![Gif](./Screenshots/switchviewdemo.gif)
 
-Installation
+## Installation
 ---------------------------------------------------
-```objc
-pod 'CMSwitchView'
+CMSwitchView is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "CMSwitchView"
 ```
+
