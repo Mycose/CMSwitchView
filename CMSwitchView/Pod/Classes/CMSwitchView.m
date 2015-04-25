@@ -207,4 +207,14 @@
         [self.delegate switchValueChanged:self andNewValue:self.isSelected];
 }
 
+- (void)setSelected:(BOOL)boolean animated:(BOOL)animated {
+    NSTimeInterval duration = self.animDuration;
+    if (animated == NO) {
+        self.animDuration = 0.f;
+        [self switchClicked];
+        self.animDuration = duration;
+    } else
+        [self switchClicked];
+}
+
 @end

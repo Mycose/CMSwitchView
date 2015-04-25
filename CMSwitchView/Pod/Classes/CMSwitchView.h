@@ -41,4 +41,7 @@
 /// delegate to be set
 @property (nonatomic, weak) id <CMSwitchViewDelegate> delegate;
 
+/// set the switch YES or NO, with animation or not
+- (void)setSelected:(BOOL)boolean animated:(BOOL)animated;
+
 @end
