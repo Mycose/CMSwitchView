@@ -21,7 +21,7 @@
 @property (nonatomic, assign) CGFloat borderWidth;
 
 /// color of the border, white by default
-@property (nonatomic, assign) UIColor* borderColor;
+@property (nonatomic, strong) UIColor* borderColor;
 
 /// color of the background of the switch view, clearColor by default
 @property (nonatomic, strong) UIColor* color;
