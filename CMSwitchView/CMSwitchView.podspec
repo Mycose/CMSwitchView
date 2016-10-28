@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CMSwitchView"
-  s.version          = "0.1.1"
+  s.version          = "0.1.3"
   s.summary          = "CMSwitchView is a cool customizable switch view and with a pan gesture on it."
   s.description      = "You can customize for now the background color when selected or not. The border width and color.
                         The width/height of the dot. If you want rounded or not."
